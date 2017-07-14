@@ -2,9 +2,18 @@
   "name": "delivery",
   "description": "Bidirectional File Transfers For Node.js via Socket.IO",
   "author": {
-    "name": "Liam Kaufman",
-    "email": "liam.kaufman@gmail.com",
-    "web": "http://liamkaufman.com"
+    "name": "DIREKTSPEED",
+    "email": "frank@dspeed.eu",
+    "web": "https://dspeed.eu"
+  },
+  scripts: {
+    "preversion": "npm test && npm run build",
+    "version": "git commit -am \"Update dist for release\" && git checkout -b release && git add -f dist/",
+    "postversion": "git push --tags && git checkout master && git branch -D release && git push",
+    "release:pre": "npm version prerelease && npm publish --tag=pre",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
   },
   "version": "0.0.6",
   "keywords": [
@@ -28,7 +37,7 @@
   },
   "licenses": [
     {
-      "type": "MIT",
+      "type": "Apache-2.0",
       "url": "http://www.opensource.org/licenses/MIT"
     }
   ],
