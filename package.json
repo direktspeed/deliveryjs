@@ -7,7 +7,7 @@
     "web": "https://dspeed.eu"
   },
   "scripts": {
-    "build": "exit 0",
+    "build": "echo `date` > dist/update",
     "test": "exit 0",
     "preversion": "npm test && npm run build",
     "version": "git commit -am \"Update dist for release\" && git checkout -b release && git add -f dist/",
