@@ -1,6 +1,6 @@
 
 # deliveryjs
-[![Build Status](https://travis-ci.org/direktspeed/deliveryjs.svg?branch=master)](https://travis-ci.org/direktspeed/deliveryjs)
+[![Build Status](https://travis-ci.org/direktspeed/deliveryjs.svg?branch=master)](https://travis-ci.org/direktspeed/deliveryjs) ![Greenkeeper Badge](https://badges.greenkeeper.io/direktspeed/deliveryjs.svg)
 
 
 ## Bidirectional File Transfers For Node.js via Socket.IO
