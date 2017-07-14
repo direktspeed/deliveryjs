@@ -1,5 +1,5 @@
 {
-  "name": "delivery",
+  "name": "deliveryjs",
   "description": "Bidirectional File Transfers For Node.js via Socket.IO",
   "author": {
     "name": "DIREKTSPEED",
