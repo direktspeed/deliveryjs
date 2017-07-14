@@ -1,4 +1,7 @@
-# Delivery.js (Experimental)
+
+# deliveryjs
+https://travis-ci.org/direktspeed/deliveryjs.svg?branch=master
+
 ## Bidirectional File Transfers For Node.js via Socket.IO
 
 Sending files to the server, and pushing files to the client should be as easy as possible. Delivery.js uses Node.js and Socket.IO to make it easy to push files to the client, or send them to the server. Files can be pushed to the client as text (utf8) or base64 (for images and binary files). 
