@@ -7,8 +7,8 @@
     "web": "https://dspeed.eu"
   },
   "scripts": {
-    "build": "exit 0",	
-    "test": "exit 0",	
+    "build": "exit 0",
+    "test": "exit 0",
     "preversion": "npm test && npm run build",
     "version": "git commit -am \"Update dist for release\" && git checkout -b release && git add -f dist/",
     "postversion": "git push --tags && git checkout master && git branch -D release && git push",
@@ -17,7 +17,7 @@
     "release:minor": "npm version minor && npm publish",
     "release:major": "npm version major && npm publish"
   },
-  "version": "0.0.6",
+  "version": "0.0.7",
   "keywords": [
     "file",
     "transfer",
