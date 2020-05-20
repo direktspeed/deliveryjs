@@ -35,7 +35,7 @@
   "dependencies": {
     "mime": "*",
     "socket.io": "*",
-    "uuid": "^7.0.0"
+    "uuid": "^8.1.0"
   },
   "licenses": [
     {
